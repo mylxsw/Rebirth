@@ -1,0 +1,32 @@
+{
+    "name": "aicode/rebirth",
+    "description": "Rebirth PHP Framework",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yiyao Guan",
+            "email": "mylxsw@126.com"
+        }
+    ],
+    "require": {
+        "doctrine/common": "2.3.0"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://pkg.phpcomposer.com/repo/packagist/"
+        },
+        {
+            "packagist": false
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rebirth\\": "src/"
+        }
+    }
+}
